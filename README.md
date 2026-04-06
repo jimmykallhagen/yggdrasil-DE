@@ -1,4 +1,4 @@
-# yggdrasil-DE
+# ![yggdrasil-icon](https://github.com/jimmykallhagen/Nordix/blob/main/icons/hicolor/128x128/apps/yggdrasil.png) Yggdrasil Desktop Environment
 ---
 
 **Author:** Jimmy Källhagen  
