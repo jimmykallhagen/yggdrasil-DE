@@ -3,7 +3,7 @@
 
 **Author:** Jimmy Källhagen  
 **Project:** [Nordix](https://github.com/jimmykallhagen/Nordix)  
-**Nordix Desktop Environment** Yggdrasil**
+**Nordix Desktop Environment** Yggdrasil
 
 
 
