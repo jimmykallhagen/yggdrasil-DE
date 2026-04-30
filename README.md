@@ -51,7 +51,7 @@ Yggdrasil has its own dynamic theme that supports GTK-3, GTK-4, QT and Friefox/l
 
 ---
 
-# **Screenshots - Yggdrasil's Help-layer's**
+# **Screenshots - Yggdrasil's Help-layer**
 
 ## 1. Keybind ALT + H
 ![1](https://github.com/jimmykallhagen/Yggdrasil/blob/main/screenshots/help.png)
