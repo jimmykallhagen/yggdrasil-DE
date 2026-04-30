@@ -1,0 +1,56 @@
+#!/bin/bash
+# SPDX-License-Identifier: GPL-3.0-or-later
+# Copyright (c) 2025 Nordix
+#
+# This configuration is part of Nordix Linux
+
+# ============================================
+# Nordix Shader Toggle
+# Cycles through user-selected shaders
+# Use nordix-shader-manager to configure
+# ============================================
+
+SHADER_DIR="$HOME/.config/hypr/shaders"
+CONFIG_FILE="$HOME/.config/nordix/shader-selection.conf"
+STATE_FILE="/tmp/hypr_shader_index"
+
+# Default shaders if no config exists
+SHADERS=()
+SHADER_NAMES=()
+
+# Source user's shader selection
+if [[ -f "$CONFIG_FILE" ]]; then
+    source "$CONFIG_FILE"
+fi
+
+# Check if any shaders are configured
+if [[ ${#SHADERS[@]} -eq 0 ]]; then
+    notify-send -t 5000 "Nordix Shaders" "No shaders configured!\nRun nordix-cli-shaders to select shaders."
+    exit 1
+fi
+
+# Read current index (-1 means no shader / start fresh)
+if [[ -f "$STATE_FILE" ]]; then
+    CURRENT_INDEX=$(cat "$STATE_FILE")
+else
+    CURRENT_INDEX=-1
+fi
+
+# Increment index and wrap around
+NEXT_INDEX=$(( (CURRENT_INDEX + 1) % ${#SHADERS[@]} ))
+
+# Save new index
+echo "$NEXT_INDEX" > "$STATE_FILE"
+
+# Get shader path and name
+SHADER_PATH="${SHADERS[$NEXT_INDEX]}"
+SHADER_NAME="${SHADER_NAMES[$NEXT_INDEX]}"
+
+# Activate the shader
+hyprctl keyword decoration:screen_shader "$SHADER_PATH"
+
+# Show notification
+if command -v notify-send &> /dev/null; then
+    notify-send -t 3000 -h string:x-canonical-private-synchronous:shader \
+        "Nordix Shader" "$SHADER_NAME\n[$(($NEXT_INDEX + 1))/${#SHADERS[@]}]"
+fi
