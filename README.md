@@ -108,7 +108,7 @@ Yggdrasil has its own dynamic theme that supports GTK-3, GTK-4, QT and Friefox/l
 ## 2. Application Lancher - Cosmic App library
 ![2](https://github.com/jimmykallhagen/Yggdrasil/blob/main/screenshots/app-launcher.png)
 
-
+---
 
 ## Licensing
 Nordix is licensed under the **GNU General Public License, version 3 or later**
