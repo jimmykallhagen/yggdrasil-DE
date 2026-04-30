@@ -53,7 +53,7 @@ Config for nordix-dynamic-theme.py you can adjust:
 
 You find the original sorcecode here:
 - [**adw-gtk3**](https://github.com/lassekongo83/adw-gtk3)
-- [**Pywal16**(https://github.com/eylles/pywal16)
+- [**Pywal16**](https://github.com/eylles/pywal16)
 - [**Waypaper**](https://github.com/anufrievroman/waypaper)
 - [**AWWW**](https://codeberg.org/LGFae/awww)
 - [**MPVPaper**](https://github.com/GhostNaN/mpvpaper)
