@@ -51,6 +51,14 @@ Yggdrasil has its own dynamic theme that supports GTK-3, GTK-4, QT and Friefox/l
 
 ---
 
+# **Screenshots - Nordix Ashell-Theme**
+
+## 1.
+![1](https://github.com/jimmykallhagen/Yggdrasil/blob/main/screenshots/ashell1.png)
+
+## 2.
+![2](https://github.com/jimmykallhagen/Yggdrasil/blob/main/screenshots/ashell2.png)
+
 ## Licensing
 Nordix is licensed under the **GNU General Public License, version 3 or later**
 
