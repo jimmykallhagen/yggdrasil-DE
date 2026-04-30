@@ -1,0 +1,175 @@
+##========================================================##
+ # SPDX-License-Identifier: GPL-3.0-or-later              #
+ # Copyright (c) 2025 Jimmy Källhagen                     #
+ # Part of Yggdrasil - Nordix desktop environment         #
+ # Nordix and Yggdrasil are trademarks of Jimmy Källhagen #
+##========================================================##
+
+# You will find ready-to-try colors from the Nordix collection at the bottom of this file
+
+#################################################################
+ #                          TIP                                #
+ #  * Cut out the seciton you want to change the color of      #
+ #  * and paste it down there                                  #
+ #  * to make it easier to test different color combinations   #
+#################################################################
+
+log_level         = "warn"
+outputs           = "All"
+position          = "Top"
+enable_esc_key    = true
+app_launcher_cmd  = "cosmic-app-library"
+clipboard_cmd     = "wl-copy"
+
+[appearance]
+style                    = "Gradient" # Status Bar Style - "Solid" "Gradient" "Islands"
+scale_factor             = 2.0
+opacity = 0.9
+font_name                = "Comfortaa" # alternative  'Monofur' # i cant se any differnt ??
+workspace_colors         = [ "#b3f0ffaa", "#545E63ff" ]
+special_workspace_colors = [ '#59d8e5aa', "#8fcbffaa" ]
+
+
+
+[appearance.menu]
+opacity = 0.75
+backdrop = 0.3
+
+
+[modules]
+left     = [ "Workspaces","AppLauncher","MediaPlayer" ]
+center   = [ "WindowTitle","Clock" ]
+right    = [ "SystemInfo","","Clipboard","Tray","Privacy","Updates","Settings" ]
+
+[media_player]
+max_title_length = 50
+indicator_format = "Icon"
+
+[workspaces]
+visibility_mode          = "All"
+enable_workspace_filling = true
+
+[window_title]
+mode                        = "Title"
+truncate_title_after_length = 75
+
+[system_info]
+indicators = [ "Cpu","Memory","Temperature" ]
+
+[system_info.memory]
+warn_threshold   = 70
+alert_threshold  = 90
+alert            = ".*notification"
+
+[system_info.temperature]
+warn_threshold   = 70
+alert_threshold  = 80
+alert            = ".*notification"
+
+[system_info.cpu]
+warn_threshold   = 60
+alert_threshold  = 80
+alert            = ".*notification"
+
+[[CustomModule]]
+name = "AppLauncher"
+icon =  "❄️"
+command = "cosmic-app-library"
+
+[[CustomModule]]
+name = "Clock"
+type = "Text"
+listen_cmd = "sh -c 'while true; do echo \"{\\\"text\\\": \\\"$(date +\"%H:%M\")\\\", \\\"alt\\\": \\\"\\\"}\"; sleep 1; done'"
+
+
+[updates]
+check_cmd    = "checkupdates; paru -Qua "
+#update_cmd   = 'wezterm -e bash -c "paru; echo Done - Press enter to exit; read" &'
+#  check_cmd = "checkupdates; paru -Qua"
+update_cmd = 'term-run "sudo pacman -Syyu; paru -Syu; flatpak update; echo Done - Press enter to exit; read" &'
+
+[settings]
+shutdown_cmd = 'nordix-shutdown-client --poweroff'    # graceful shutdown
+lock_cmd = "playerctl --all-players pause; nixGL hyprlock &"
+audio_sinks_more_cmd = "pavucontrol -t 3"
+audio_sources_more_cmd = "pavucontrol -t 4"
+wifi_more_cmd = "nm-connection-editor"
+vpn_more_cmd = "nm-connection-editor"
+bluetooth_more_cmd = "blueman-manager"
+battery_format = "IconAndPercentage"
+peripheral_battery_format = "Icon"
+audio_indicator_format = "Icon"
+microphone_indicator_format = "Icon"
+network_indicator_format = "Icon"
+bluetooth_indicator_format = "Icon"
+brightness_indicator_format = "Icon"
+indicators = [ "IdleInhibitor", "PowerProfile", "Audio", "Microphone", "Bluetooth", "Network", "Vpn", "Battery", "Brightness" ]
+
+[appearance.background_color]  # Used as the background color for all status bar components
+base    = '#0d1117'   # base   -  Bar base color
+strong  = '#4f565e'   # strong -  color for section lines and for highlight button that is in focus
+weak    = '#3d444d'   # weak   -  primary botton color
+
+[appearance.primary_color]    # Used for elements like buttons or slider handles
+base    = '#4f565e'           # base   - color of selected options in widget
+strong  = '#3d444d'           # strong - slider and switch buttoms
+weak    = '#696f75aa'         # weak   - color of selected options in widget
+
+[appearance.secondary_color]  # Used for borders and slider tracks
+base   = "#b3f0ffaa"          # base   - color for border and the color for the unused part of the slider
+strong = '#1c2328'            # strong - color for secondary menu
+
+[appearance.text_color]
+base   = "#b3f0ff"            # base  - Used as the default text color
+
+[appearance.danger_color]
+  base = "#f7768e"            # !!
+# weak = "#e0af68"            # ! standard
+  weak = "#a1b116ff"          # ! mustard
+
+# = '#1c2328'      # Nordix menu gray
+# = "#27d560"      # Nordix highlight green
+# = '#0d1117'      # Nordix base
+# = "#81d1f1aa"    # Nordix frozen alternative text 1
+# = "#11d1f5ff"    # Nordix frozen alternvative text 2
+# = '#00FFFF'      # Nordix cayn
+# = '#9ce6ffff'    # Nordix artic
+# = '#4aa3ff'      # Nordix glacier-blue
+# = "#8fcbff"      # Nordix frost-crystal
+# = "#2b7a10"      # Nordix nice green
+# = "#b3f0ff"      # Nordix crystal-ice - default text
+# = "#a1b116ff"    # Nordix mustard
+# = "#4aa3ff"      # Nordix glacier blue
+# = "#2b7af010"    # Nordix mist
+# = "#6ad4b200"    # Nordix winter aurora
+# = "#0084afaa"    # Nordix transparent ice
+# = "#545E63ff"    # Nordix glacier
+# = '#aabaaeff'    # Nordix ghost
+# = '#4abecfff'    # Nordix ghost ice
+# = '#59d8e5'      # Nordix ghost frost
+
+# = '#5E686Dff'    # Nordix slategray-1
+# = '#5E686Daa'    # Nordix slategray-2
+# = '#5E686D80'    # Nordix slategray-3
+# = '#5E686D00'    # Nordix slategray-4
+
+# = '#545E63ff'    # Nordix steelgray-1
+# = '#545E63aa'    # Nordix steelgray-2
+# = '#545E6380'    # Nordix steelgray-3
+# = '#545E6300'    # Nordix steelgray-4
+
+# = '#404A4Fff'    # Nordix darksteel-1
+# = '#404A4Faa'    # Nordix darksteel-2
+# = '#404A4F80'    # Nordix darksteel-3
+# = '#404A4F00'    # Nordix darksteel-4
+
+# = '#363F44ff'    # Nordix charcoalgray-1
+# = '#363F44aa'    # Nordix charcoalgray-2
+# = '#r363F4480'   # Nordix charcoalgray-3
+# = '#363F4400'    # Nordix charcoalgray-4
+
+ # = '#3d444d'     # grey 1
+ # = '#4f565e'     # subl gray
+ # = '#4f565e'     # subl light gray 1
+ # = '#696f75'     # subl withe gray
+ # = '#8d9199'     # cosmic gray
