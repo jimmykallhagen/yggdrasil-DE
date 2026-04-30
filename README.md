@@ -5,7 +5,9 @@
 **Project:** [Nordix](https://github.com/jimmykallhagen/Nordix)  
 **Nordix Desktop Environment** Yggdrasil
 
+# **Yggdrasil - Nordix Desktop Environment**
 
+Yggdrasil is a Desktop layer built on Hyprland, the goal is to offer a full-fledged Desktop environment based on Hyprland but a fully optimized default, it is not a "rice" but a completely well-functioning default where the user can easily adjust their own rices from Ygddrasil's System Settings GUI
 
 
 ## Licensing
