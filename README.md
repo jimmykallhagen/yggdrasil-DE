@@ -88,6 +88,16 @@ Yggdrasil has its own dynamic theme that supports GTK-3, GTK-4, QT and Friefox/l
 ## 2. 
 ![2](https://github.com/jimmykallhagen/Yggdrasil/blob/main/screenshots/thunar-dolphin2.png)
 
+---
+
+# **Screenshots - QT: Dolphin, Genview, Qbittorrent**
+
+## 1.
+![1](https://github.com/jimmykallhagen/Yggdrasil/blob/main/screenshots/brown-qt.png)
+
+## 2.
+![2](https://github.com/jimmykallhagen/Yggdrasil/blob/main/screenshots/red-qt.png)
+
 ## Licensing
 Nordix is licensed under the **GNU General Public License, version 3 or later**
 
