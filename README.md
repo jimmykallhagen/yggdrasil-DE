@@ -19,7 +19,21 @@ then comes the funny news that hyprland changes the config language to lua, all 
 
 **so in this repo i will host mirrors for Hyprland v0.54.0**
 stack 
-
+  aquamarine
+  hyprcursor
+  hyprgraphics
+  hypridle
+  Hyprland
+  hyprland-guiutils
+  hyprland-qt-support
+  hyprlock
+  hyprpicker
+  hyprpolkitagent
+  hyprtoolkit
+  hyprutils
+  hyprwayland-scanner
+  hyprwire
+  xdg-desktop-portal-hyprland
 **i also host mirrors from hyprland wiki regarding config of Hyprland v0.54.0**
 
 ---
