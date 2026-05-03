@@ -11,11 +11,19 @@
 
 **Hyprland v0.54.0**
 
-> **My goal i have had now for half a year is to finish it so i have something to show when i invite others to participate in my project nordix.
+> **My goal i have had now for half a year is to finish Yggdrasil it so i have something to show when i invite others to participate in my project Nordix.
 i wanted it to be a working foundation, a platform to show a working concept on. 
-then comes the funny news that hyprland changes the config language to lua, all my work is undone, i therefore choose to freeze hurprland v0.54.0 myself and continue to run on this version until further notice, when i have people who have chosen to participate in my project i think we will decide together what we should continue to build on.**
+Then comes the funny news that hyprland changes the config language to lua, all my work is undone, i therefore choose to freeze Hyrprland v0.54.0 myself and continue to run on this version until further notice, when i have people who have chosen to participate in my project i think we will decide together what we should continue to build on.**
 
 > **My vision with yggdrasil is to enjoy a start ready tilling window manager, there are a few points that i find as key functions in hyprland. it is to be able to combine layouts, I find it very efficient to work with a master layout, but at the same time be able to use scrolling on my second monitor, the concept is then that you have the master layout on the main monitor, you also have all the workspaces here, and on the other hand the monitor is locked to only one workspace but that here instead you run scrolling to reach a wider work area being able to use groups in hyprland is also very nice.**
+
+**The key functions i want to bring to a start ready tilling desktop environment is:**
+> - Rounded corner on the windows!
+> - Laoyut - Master/Dwindle and scrolling
+> - Enable to make window floating
+> - Animation
+> - Gaps between window
+> - some kind of neat appearance
 
 #### **So in order to move forward and invite others to participate in my project Nordix- Yggdrasil, I will host mirrors for what is needed for Hyprland v0.54.0 stack**
 
