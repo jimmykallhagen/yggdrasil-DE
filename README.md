@@ -36,6 +36,7 @@ then comes the funny news that hyprland changes the config language to lua, all 
   - xdg-desktop-portal-hyprland
 
 #### **Mirrors of Hyprland wiki regarding config of Hyprland v0.54.0**
+---
 
  - Animations – Hyprland Wiki.pdf
  - aquamarine – Hyprland Wiki.pdf
