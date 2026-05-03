@@ -8,6 +8,8 @@
 ---
 ---
 # **_Foreword to the news thats Hyprland goes lua_**
+---
+
 **Hyprland v0.54.0**
 
 > **My goal i have had now for half a year is to finish it so i have something to show when i invite others to participate in my project nordix.
@@ -20,6 +22,7 @@ then comes the funny news that hyprland changes the config language to lua, all 
 stack 
 
 **i also host mirrors from hyprland wiki regarding config of Hyprland v0.54.0**
+
 ---
 ---
 
