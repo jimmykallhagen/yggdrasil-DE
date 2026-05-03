@@ -17,7 +17,7 @@ then comes the funny news that hyprland changes the config language to lua, all 
 
 > **My vision with yggdrasil is to enjoy a start ready tilling window manager, there are a few points that i find as key functions in hyprland. it is to be able to combine layouts, I find it very efficient to work with a master layout, but at the same time be able to use scrolling on my second monitor, the concept is then that you have the master layout on the main monitor, you also have all the workspaces here, and on the other hand the monitor is locked to only one workspace but that here instead you run scrolling to reach a wider work area being able to use groups in hyprland is also very nice.**
 
-####**So in order to move forward and invite others to participate in my project Nordix- Yggdrasil, I will host mirrors for what is needed for Hyprland v0.54.0 stack**
+#### **So in order to move forward and invite others to participate in my project Nordix- Yggdrasil, I will host mirrors for what is needed for Hyprland v0.54.0 stack**
 
   - aquamarine
   - hyprcursor
@@ -35,7 +35,7 @@ then comes the funny news that hyprland changes the config language to lua, all 
   - hyprwire
   - xdg-desktop-portal-hyprland
 
-####**Mirrors of Hyprland wiki regarding config of Hyprland v0.54.0**
+#### **Mirrors of Hyprland wiki regarding config of Hyprland v0.54.0**
 
  - Animations – Hyprland Wiki.pdf
  - aquamarine – Hyprland Wiki.pdf
