@@ -20,7 +20,8 @@ then comes the funny news that hyprland changes the config language to lua, all 
 stack 
 
 **i also host mirrors from hyprland wiki regarding config of Hyprland v0.54.0**
-
+---
+---
 
 
 # **Yggdrasil - Nordix Desktop Environment**
