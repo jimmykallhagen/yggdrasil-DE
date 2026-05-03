@@ -6,7 +6,6 @@
 **Nordix Desktop Environment** Yggdrasil
 
 ---
----
 # **_Foreword to the news thats Hyprland goes lua_**
 ---
 
