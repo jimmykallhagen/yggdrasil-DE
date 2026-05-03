@@ -42,8 +42,8 @@ Then comes the funny news that hyprland changes the config language to lua, all 
 >  - hyprwire
 >  - xdg-desktop-portal-hyprland
 
-#### **Mirrors of Hyprland wiki regarding config of Hyprland v0.54.0**
 
+#### **Mirrors of Hyprland wiki regarding config of Hyprland v0.54.0**
 
 > - Animations – Hyprland Wiki.pdf
 > - aquamarine – Hyprland Wiki.pdf
@@ -79,6 +79,8 @@ Then comes the funny news that hyprland changes the config language to lua, all 
 > - xdg-desktop-portal-hyprland – Hyprland Wiki.pdf
 > - XWayland – Hyprland Wiki.pdf
 
+You can find Nordix mirrors of hyprland and wiki for configs before lua here:
+- [**Nordix Hypralnd Mirorrs**](https://github.com/jimmykallhagen/noridx-hyprland-mirrors/tree/main)
 
 **_preface ends here_**
 ---
