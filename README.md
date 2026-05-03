@@ -7,7 +7,6 @@
 
 ---
 # **_Preface regarding the news that hyprland is switching to lua_**
----
 
 **Hyprland v0.54.0**
 
@@ -83,7 +82,7 @@ Then comes the funny news that hyprland changes the config language to lua, all 
 
 **_preface ends here_**
 ---
-
+---
 
 # **Yggdrasil - Nordix Desktop Environment**
 
