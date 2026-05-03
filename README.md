@@ -19,24 +19,24 @@ then comes the funny news that hyprland changes the config language to lua, all 
 
 #### **So in order to move forward and invite others to participate in my project Nordix- Yggdrasil, I will host mirrors for what is needed for Hyprland v0.54.0 stack**
 
-  - aquamarine
-  - hyprcursor
-  - hyprgraphics
-  - hypridle
-  - Hyprland
-  - hyprland-guiutils
-  - hyprland-qt-support
-  - hyprlock
-  - hyprpicker
-  - hyprpolkitagent
-  - hyprtoolkit
-  - hyprutils
-  - hyprwayland-scanner
-  - hyprwire
-  - xdg-desktop-portal-hyprland
+>  - aquamarine
+>  - hyprcursor
+>  - hyprgraphics
+>  - hypridle
+>  - Hyprland
+>  - hyprland-guiutils
+>  - hyprland-qt-support
+>  - hyprlock
+>  - hyprpicker
+>  - hyprpolkitagent
+>  - hyprtoolkit
+>  - hyprutils
+>  - hyprwayland-scanner
+>  - hyprwire
+>  - xdg-desktop-portal-hyprland
 
 #### **Mirrors of Hyprland wiki regarding config of Hyprland v0.54.0**
----
+
 
  - Animations – Hyprland Wiki.pdf
  - aquamarine – Hyprland Wiki.pdf
