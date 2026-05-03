@@ -80,7 +80,7 @@ Then comes the funny news that hyprland changes the config language to lua, all 
 > - xdg-desktop-portal-hyprland – Hyprland Wiki.pdf
 > - XWayland – Hyprland Wiki.pdf
 
----
+
 **_preface ends here_**
 ---
 
