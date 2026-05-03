@@ -5,6 +5,24 @@
 **Project:** [Nordix](https://github.com/jimmykallhagen/Nordix)  
 **Nordix Desktop Environment** Yggdrasil
 
+---
+---
+# **_Foreword to the news lua_**
+**Hyprland v0.54.0**
+
+> **My goal i have had now for half a year is to finish it so i have something to show when i invite others to participate in my project nordix.
+i wanted it to be a working foundation, a platform to show a working concept on. 
+then comes the funny news that hyprland changes the config language to lua, all my work is undone, i therefore choose to freeze hurprland v0.54.0 myself and continue to run on this version until further notice, when i have people who have chosen to participate in my project i think we will decide together what we should continue to build on.**
+
+> **My vision with yggdrasil is to enjoy a start ready tilling window manager, there are a few points that i find as key functions in hyprland. it is to be able to combine layouts, I find it very efficient to work with a master layout, but at the same time be able to use scrolling on my second monitor, the concept is then that you have the master layout on the main monitor, you also have all the workspaces here, and on the other hand the monitor is locked to only one workspace but that here instead you run scrolling to reach a wider work area being able to use groups in hyprland is also very nice.**
+
+**so in this repo i will host mirrors for Hyprland v0.54.0**
+stack 
+
+**i also host mirrors from hyprland wiki regarding config of Hyprland v0.54.0**
+
+
+
 # **Yggdrasil - Nordix Desktop Environment**
 
 Yggdrasil is a Desktop layer built on Hyprland, the goal is to offer a full-fledged Desktop environment based on Hyprland but a fully optimized default, it is not a "rice" but a completely well-functioning default where the user can easily adjust their own rices from Ygddrasil's System Settings GUI
