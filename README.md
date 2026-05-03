@@ -37,6 +37,40 @@ then comes the funny news that hyprland changes the config language to lua, all 
 
 **i also host mirrors from hyprland wiki regarding config of Hyprland v0.54.0**
 
+ - Animations – Hyprland Wiki.pdf
+ - aquamarine – Hyprland Wiki.pdf
+ - Binds – Hyprland Wiki.pdf
+ - Clipboard Managers – Hyprland Wiki.pdf
+ - Dispatchers – Hyprland Wiki.pdf
+ - Dwindle Layout – Hyprland Wiki.pdf
+ - Environment variables – Hyprland Wiki.pdf
+ - Expanding functionality – Hyprland Wiki.pdf
+ - FAQ – Hyprland Wiki.pdf
+ - Gestures – Hyprland Wiki.pdf
+ - hyprcursor – Hyprland Wiki.pdf
+ - Hypr Ecosystem – Hyprland Wiki.pdf
+ - hyprlang – Hyprland Wiki.pdf
+ - IPC – Hyprland Wiki.pdf
+ - Keywords – Hyprland Wiki.pdf
+ - Master Layout – Hyprland Wiki.pdf
+ - Master tutorial – Hyprland Wiki.pdf
+ - Monitors – Hyprland Wiki.pdf
+ - Monocle Layout – Hyprland Wiki.pdf
+ - Multi-GPU – Hyprland Wiki.pdf
+ - Performance – Hyprland Wiki.pdf
+ - Permissions – Hyprland Wiki.pdf
+ - rgna-hypr-insstall-ording.pdf
+ - Scrolling Layout – Hyprland Wiki.pdf
+ - Status bars – Hyprland Wiki.pdf
+ - Tearing – Hyprland Wiki.pdf
+ - Uncommon tips & tricks – Hyprland Wiki.pdf
+ - Using hyprctl – Hyprland Wiki.pdf
+ - Variables – Hyprland Wiki.pdf
+ - Window Rules – Hyprland Wiki.pdf
+ - Workspace Rules – Hyprland Wiki.pdf
+ - xdg-desktop-portal-hyprland – Hyprland Wiki.pdf
+ - XWayland – Hyprland Wiki.pdf
+
 ---
 ---
 
