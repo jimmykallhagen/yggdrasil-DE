@@ -149,11 +149,15 @@ Yggdrasil has its own dynamic theme that supports GTK-3, GTK-4, QT and Friefox/l
 ![2](https://github.com/jimmykallhagen/Yggdrasil/blob/main/screenshots/ashell2.png)
 
 ---
+
 # **Screenshots - Nordix ZFS System Monitor Layer**
+  - The Monitor Follows Nordix Dynamic Theme
 ![2](https://github.com/jimmykallhagen/Yggdrasil/blob/main/screenshots/Screenshot-Mon%20May%20%204%2003%3A04%3A48%20PM%20UTC%202026.png)
+![5](https://github.com/jimmykallhagen/Yggdrasil/blob/main/screenshots/Screenshot-Mon%20May%20%204%2003%3A07%3A11%20PM%20UTC%202026.png)
+
 ![1](https://github.com/jimmykallhagen/Yggdrasil/blob/main/screenshots/Screenshot-Mon%20May%20%204%2003%3A05%3A53%20PM%20UTC%202026.png)
 ![3](https://github.com/jimmykallhagen/Yggdrasil/blob/main/screenshots/Screenshot-Mon%20May%20%204%2003%3A06%3A58%20PM%20UTC%202026.png)
-![5](https://github.com/jimmykallhagen/Yggdrasil/blob/main/screenshots/Screenshot-Mon%20May%20%204%2003%3A07%3A11%20PM%20UTC%202026.png)
+
 ---
 
 # **Screenshots - Nordix Dynamic Theme**
