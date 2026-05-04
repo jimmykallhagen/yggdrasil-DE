@@ -132,11 +132,10 @@ Yggdrasil has its own dynamic theme that supports GTK-3, GTK-4, QT and Friefox/l
 
 ---
 
-## Nordix package searc
-                                                                      -
-   **Nordix Package Search: Pacman / Paru** 
+##   **Nordix Package Search: Pacman / Paru** 
 ![search](https://github.com/jimmykallhagen/Yggdrasil/blob/main/screenshots/search.png)
 
+---
 
 # **Screenshots - Yggdrasil's Help-layer**
 
