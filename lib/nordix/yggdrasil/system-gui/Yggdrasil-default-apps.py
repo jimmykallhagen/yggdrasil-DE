@@ -658,13 +658,13 @@ class SystemDefaultsSettings:
                 '$cursor_size = 34',
                 '',
                 '# Top bar',
-                '$system_bar = /usr/lib/nordix/yggdrasil/scripts/nordix-ashell.sh',
-
-                '# Applauncher ',
-                '$applauncher = /usr/lib/nordix/yggdrasil/bin/launcher-wrapper.sh',
+                '$system_bar = /usr/lib/nordix/yggdrasil/script/nx-ashell-delayed.sh',
                 '',
-
-
+                '# Applauncher ',
+                '$applauncher = /usr/lib/nordix/scripts/yggdrasil/launcher-wrapper.sh',
+                '',
+                '# System Editor',
+                '$system_editor = nano',
             ]
 
             # System defaults section
