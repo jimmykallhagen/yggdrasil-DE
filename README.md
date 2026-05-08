@@ -90,8 +90,11 @@ You can find Nordix mirrors of hyprland and wiki for configs before lua here:
 
 Yggdrasil is a Desktop layer built on Hyprland, the goal is to offer a full-fledged Desktop environment based on Hyprland but a fully optimized default, it is not a "rice" but a completely well-functioning default where the user can easily adjust their own rices from Ygddrasil's System Settings GUI
 
-Yggdrasil has its own dynamic theme that supports GTK-3, GTK-4, QT and Friefox/librewolf
-- [**Nordix Dynamic Theme**](https://github.com/jimmykallhagen/Yggdrasil/blob/main/nordix-dynamic-theme.md)
+**FUll HDR support, 10-bit color**
+ - [**Yggdrasil Montior**](https://github.com/jimmykallhagen/Yggdrasil/blob/main/README-monitor.md)
+
+**Yggdrasil has its own dynamic theme that supports GTK-3, GTK-4, QT and Friefox/librewolf**
+ - [**Nordix Dynamic Theme**](https://github.com/jimmykallhagen/Yggdrasil/blob/main/nordix-dynamic-theme.md)
 
 ---
 
