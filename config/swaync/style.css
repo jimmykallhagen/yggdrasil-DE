@@ -1,0 +1,63 @@
+
+.notification-action,
+.notification-default-action,
+.control-center {
+	border-radius: 0.75em;
+	border: 3px solid alpha(#4abecf, 1.3);
+	background: alpha(#1c2328, 0.7);
+}
+
+.notification {
+	box-shadow: 3px 2px 3px 0px rgba(0,0,0,0.5);
+}
+
+
+.notification-content {
+	margin: 5px;
+}
+
+.control-center .notification-row {
+	background:  alpha(#1c2328, 0.7);
+}
+
+.widget-dnd {
+	font-weight: bold;
+	margin: 1em;
+}
+
+.widget-dnd>switch {
+	border: 1px solid alpha(#b3f0ff, 0.3);
+	border-radius: 0.75em;
+	background:  alpha(#1c2328, 0.7);
+	padding: 1px;
+}
+
+.widget-dnd> switch slider {
+	border: 1px solid alpha(#b3f0ff, 0.3);
+	border-radius: 0.75em;
+	background:  alpha(#1c2328, 0.7);
+	box-shadow: none;
+}
+
+.widget-mpris {
+	border-radius: 0.75em;
+	background: alpha(#1c2328, 0.7);
+	margin: 1em;
+}
+
+.widget-buttons-grid {
+	margin: 1em;
+	background: alpha(black, 0.5);
+}
+
+.widget-buttons-grid>flowbox>flowboxchild>button {
+	box-shadow: none;
+	color: solid alpha(#4abecf, 1.3);
+	font-style: normal;
+	border: 1px solid alpha(#b3f0ff, 0.3);
+	background:  alpha(#1c2328, 0.7);
+}
+
+.widget-buttons-grid>flowbox>flowboxchild>button:hover {
+	background:  alpha(#1c2328, 0.7);
+}

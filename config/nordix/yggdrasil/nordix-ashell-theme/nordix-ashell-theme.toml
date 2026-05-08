@@ -22,16 +22,14 @@ app_launcher_cmd  = "cosmic-app-library"
 clipboard_cmd     = "wl-copy"
 
 [appearance]
-# Status Bar Style - "Solid" "Gradient" "Islands" uncomment the style you want to use
-# style     = "Gradient"  
-# style     = "Solid"  
-  style     = "Islands"  
-
-scale_factor             = 2.0                         # Scale from 1.0 - 2.0
-opacity                  = 0.9
-font_name                = "Comfortaa"                 # alternative  'Monofur' # i cant se any differnt ??
+style                    = "Gradient" # Status Bar Style - "Solid" "Gradient" "Islands"
+scale_factor             = 2.0
+opacity = 0.9
+font_name                = "Comfortaa" # alternative  'Monofur' # i cant se any differnt ??
 workspace_colors         = [ "#b3f0ffaa", "#545E63ff" ]
 special_workspace_colors = [ '#59d8e5aa', "#8fcbffaa" ]
+
+
 
 [appearance.menu]
 opacity = 0.75
@@ -74,69 +72,69 @@ alert_threshold  = 80
 alert            = ".*notification"
 
 [[CustomModule]]
-name          = "AppLauncher"
-icon          =  "❄️"
-command       = "cosmic-app-library"
+name = "AppLauncher"
+icon =  "❄️"
+command = "cosmic-app-library"
 
 [tempo]
-clock_format  = "%a %d %b %R"
+clock_format = "%a %d %b %R"
 
 [updates]
-check_cmd     = "checkupdates; paru -Qua"
-update_cmd    = 'term-run "sudo pacman -Syyu; paru -Syu; flatpak update; echo Done - Press enter to exit; read" &'
+check_cmd    = "checkupdates; paru -Qua"
+update_cmd = 'term-run "sudo pacman -Syyu; paru -Syu; flatpak update; echo Done - Press enter to exit; read" &'
 
 [settings]
 brightness_indicator_format = "Icon"
-indicators    = ["Audio", "Microphone", "Bluetooth", "Network", "Vpn", "Battery", "Brightness" ] #  "IdleInhibitor", "PowerProfile", 
+indicators = ["Audio", "Microphone", "Bluetooth", "Network", "Vpn", "Battery", "Brightness" ] #  "IdleInhibitor", "PowerProfile", 
 
 # Session Management
-shutdown_cmd  = 'nordix-shutdown-client --poweroff'    # graceful shutdown
-reeboot_cmd   = 'nordix-shutdown-client --reboot'       # graceful shutdown
-suspend_cmd   = "systemctl suspend"
+shutdown_cmd = 'nordix-shutdown-client --poweroff'    # graceful shutdown
+reeboot_cmd = 'nordix-shutdown-client --reboot'       # graceful shutdown
+suspend_cmd = "systemctl suspend"
 hibernate_cmd = "systemctl hibernate"
-logout_cmd    = "loginctl kill-user $(whoami)"
-lock_cmd      = "playerctl --all-players pause; nixGL hyprlock &"
+logout_cmd = "loginctl kill-user $(whoami)"
+lock_cmd = "playerctl --all-players pause; nixGL hyprlock &"
 
 # Audio
-audio_indicator_format      = "IconAndPercentage"
-audio_sinks_more_cmd        = "pavucontrol -t 3"
-audio_sources_more_cmd      = "pavucontrol -t 4"
+audio_indicator_format = "IconAndPercentage"
+audio_sinks_more_cmd = "pavucontrol -t 3"
+audio_sources_more_cmd = "pavucontrol -t 4"
 microphone_indicator_format = "Icon"
 
 # Bluetooth 
-bluetooth_indicator_format  = "IconAndValue" # or: "Icon"
-bluetooth_more_cmd          = "blueman-manager"
+bluetooth_indicator_format = "IconAndValue" # or: "Icon"
+bluetooth_more_cmd = "blueman-manager"
 
  # Neetwork
-wifi_more_cmd    = "nm-connection-editor"
-vpn_more_cmd     = "nm-connection-editor"
+wifi_more_cmd = "nm-connection-editor"
+vpn_more_cmd = "nm-connection-editor"
 
  # Battery
-battery_format             = "IconAndPercentage" # or: "Time"
-peripheral_battery_format  = "Icon"   # or: "IconAndTime"
-peripheral_indicators      = { Specific = ["Gamepad", "Keyboard"] }
+battery_format = "IconAndPercentage" # or: "Time"
+peripheral_battery_format = "Icon"   # or: "IconAndTime"
+peripheral_indicators = { Specific = ["Gamepad", "Keyboard"] }
 
-[appearance.background_color]# Used as the background color for all status bar components
-base    = '#0d1117'     # base   -  Bar base color
-strong  = '#4f565e'     # strong -  color for section lines and for highlight button that is in focus
-weak    = '#3d444d'     # weak   -  primary botton color
+[appearance.background_color]  # Used as the background color for all status bar components
+base    = '#0d1117'   # base   -  Bar base color
+strong  = '#4f565e'   # strong -  color for section lines and for highlight button that is in focus
+weak    = '#3d444d'   # weak   -  primary botton color
 
-[appearance.primary_color]# Used for elements like buttons or slider handles
+[appearance.primary_color]    # Used for elements like buttons or slider handles
 base    = '#4f565e'           # base   - color of selected options in widget
 strong  = '#3d444d'           # strong - slider and switch buttoms
 weak    = '#696f75aa'         # weak   - color of selected options in widget
 
-[appearance.secondary_color]# Used for borders and slider tracks
-base    = "#b3f0ffaa"          # base   - color for border and the color for the unused part of the slider
-strong  = '#1c2328'            # strong - color for secondary menu
+[appearance.secondary_color]  # Used for borders and slider tracks
+base   = "#b3f0ffaa"          # base   - color for border and the color for the unused part of the slider
+strong = '#1c2328'            # strong - color for secondary menu
 
 [appearance.text_color]
-base    = "#b3f0ff"            # base  - Used as the default text color
+base   = "#b3f0ff"            # base  - Used as the default text color
 
 [appearance.danger_color]
-  base  = "#f7768e"            # !!
-# weak  = "#e0af68"            # ! standard
-  weak  = "#a1b116ff"          # ! mustard
+  base = "#f7768e"            # !!
+# weak = "#e0af68"            # ! standard
+  weak = "#a1b116ff"          # ! mustard
 
 # = '#1c2328'      # Nordix menu gray
 # = "#27d560"      # Nordix highlight green
