@@ -80,7 +80,7 @@ Then comes the funny news that hyprland changes the config language to lua, all 
 > - XWayland – Hyprland Wiki.pdf
 
 You can find Nordix mirrors of hyprland and wiki for configs before lua here:
-- [**Nordix Hypralnd Mirorrs**](https://github.com/jimmykallhagen/noridx-hyprland-mirrors/tree/main)
+- [**Nordix Hypralnd Mirorrs**](https://gitlab.com/TheEnchantedPotato/)
 
 **_preface ends here_**
 ---
