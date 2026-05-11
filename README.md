@@ -8,7 +8,7 @@
 ---
 # **_Preface regarding the news that hyprland is switching to lua_**
 
-## - [X] The Hyprland stack is published on AUR under hypr*-frozen
+## - [x] The Hyprland stack is published on AUR under hypr*-frozen
 
 **Hyprland v0.54.0**
 
