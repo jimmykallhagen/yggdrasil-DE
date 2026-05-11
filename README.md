@@ -8,6 +8,8 @@
 ---
 # **_Preface regarding the news that hyprland is switching to lua_**
 
+## - [X] The Hyprland stack is published on AUR under hypr*-frozen
+
 **Hyprland v0.54.0**
 
 > **My goal i have had now for half a year is to finish Yggdrasil it so i have something to show when i invite others to participate in my project Nordix.
