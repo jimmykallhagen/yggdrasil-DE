@@ -31,6 +31,7 @@ Then comes the funny news that hyprland changes the config language to lua, all 
 >  - hyprgraphics
 >  - hypridle
 >  - Hyprland
+>  - hyprland-protocols
 >  - hyprland-guiutils
 >  - hyprland-qt-support
 >  - hyprlock
