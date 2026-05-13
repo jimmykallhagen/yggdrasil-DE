@@ -158,6 +158,8 @@ Yggdrasil is a Desktop layer built on Hyprland, the goal is to offer a full-fled
 ## 1.
 ![5](https://github.com/jimmykallhagen/Yggdrasil/blob/main/screenshots/123.png)
 
+## 2.
+![2](https://github.com/jimmykallhagen/Yggdrasil/blob/main/screenshots/124.png)
 
 ---
 
