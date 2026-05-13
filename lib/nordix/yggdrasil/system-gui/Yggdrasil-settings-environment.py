@@ -475,8 +475,8 @@ source = ~/.config/nordix/yggdrasil/settings/Yggdrasil-defaults.conf
 ##==================================================##
 #
 ##===========================================##
-# {env('GTK_THEME', 'adw-gtk3-dark')}
-{env('QT_QPA_PLATFORMTHEME', 'hyprqt6engine')}
+{env('GTK_THEME', 'nordix-dynamic-theme')}
+{env('QT_QPA_PLATFORMTHEME', 'kde')}
 ##===========================================##
 #
 #
@@ -519,6 +519,7 @@ source = ~/.config/nordix/yggdrasil/settings/Yggdrasil-defaults.conf
   env = TERMINAL,$system_terminal
   env = TerminalEmulator,$system_terminal
   env = FILE_MANAGER,$system_filebrowser
+  env = APP_LAUNCHER,$applauncher
   env = PAGER,less
   env = IMAGEVIEWER,$system_image_viewer
   env = CALCULATOR,$system_calculator
