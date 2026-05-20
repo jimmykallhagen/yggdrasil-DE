@@ -1,12 +1,9 @@
 #!/usr/bin/env bash
-#!/usr/bin/env bash
 # Nordix - screenshoot 
 # Version: 1.0
 #
-#
-#
 
-FILE="~/Pictures/Screenshots/Screenshot-$(date).png"
+FILE="~/Pictures/Screenshots/Screenshot-$(date '+%m-%d %H:%M:%S').png"
 
 
 mkdir -p ~/Pictures/Screenshots
@@ -14,10 +11,9 @@ mkdir -p ~/Pictures/Screenshots
 
 
 # Screenshot
-#grimblast save active "$FILE"
+grimblast save active "$FILE"
+sleep 1
 
-grimblast save active ~/Pictures/Screenshots/"Screenshot-$(date)".png 
-sleep 2
 # Notification
 
 notify-send -t 5000 -h string:x-canonical-private-synchronous:grimblast \
