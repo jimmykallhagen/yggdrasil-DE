@@ -8,7 +8,7 @@
 ---
 # **_Preface regarding the news that hyprland is switching to lua_**
 
-# - [x] The Hyprland v0.54 stack is published on AUR under hypr*-frozen
+ - [x] The Hyprland v0.54 stack is published on AUR under hypr*-frozen
 
 **Hyprland v0.54.0**
 
@@ -87,7 +87,7 @@ You can find Nordix mirrors of hyprland and wiki for configs before lua here:
 - [**Nordix Hypralnd Mirorrs**](https://gitlab.com/TheEnchantedPotato/)
 
 **_preface ends here_**
----
+
 ---
 
 # **Yggdrasil - Nordix Desktop Environment**
